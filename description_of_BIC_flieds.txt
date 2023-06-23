@@ -1,0 +1,11 @@
+Sender BIC: This is the unique SWIFT code of the bank (or other financial institution) that is initiating or sending the SWIFT message. This code is used in the header of the message.
+
+Receiver BIC: This is the unique SWIFT code of the bank that is the intended recipient of the SWIFT message. Like the Sender BIC, this code is also used in the header of the message.
+
+Ordering (or Originator) BIC: This is the BIC of the bank where the order to make the payment originates. This might be the same as the Sender BIC, but it could also be a different bank if, for example, a local bank is initiating a payment on behalf of a client but using a correspondent bank to send the actual SWIFT message.
+
+Beneficiary BIC: This is the BIC of the bank that serves the final recipient or beneficiary of the funds. It may be the same as the Receiver BIC, or it may be a different bank if the receiving bank needs to forward the payment to another bank to reach the final recipient.
+
+Creditor BIC: A creditor is the party that is to receive the funds in a transaction. The Creditor BIC would be the BIC of the bank where the creditor's account is held. This is typically the same as the Beneficiary BIC.
+
+Debtor BIC: A debtor is the party that is sending or owing the funds in a transaction. The Debtor BIC would be the BIC of the bank where the debtor's account is held. This is typically the same as the Ordering BIC.
